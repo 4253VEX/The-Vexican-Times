@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Vexican Times</title>
+    <style>
+      /* Minimal, Gmail-friendly CSS */
+      img { border:0; outline:none; text-decoration:none; display:block; }
+      table { border-collapse: collapse; }
+      a { text-decoration: none; }
+      /* Mobile stacking */
+      @media only screen and (max-width: 620px) {
+        .container { width:100% !important; }
+        .stack { display:block !important; width:100% !important; }
+        .w-50 { display:block !important; width:100% !important; }
+        .px-24 { padding-left:20px !important; padding-right:20px !important; }
+        .py-24 { padding-top:20px !important; padding-bottom:20px !important; }
+        .masthead { font-size:30px !important; line-height:36px !important; }
+      }
+    </style>
+    
+  </head>
+  <body style="margin:0; padding:0;">
+    <!-- Preheader -->
+    <div style="display:none; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden;">
+      Build updates, code commits, scrimmages, and volunteer needs for the week.
+    </div>
+
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center">
+          <!-- Container -->
+          <table role="presentation" width="600" class="container" cellspacing="0" cellpadding="0" style="width:600px; max-width:600px;">
+          <!--
+               
+                <tr>
+                  <td class="px-24 py-24" style="padding:14px 24px; font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:12px;"></td>
+                  <table role="presentation" width="100%"></table>
+                    <tr>
+                    <td align="left">
+                      <a href="{{VIEW_IN_BROWSER_URL}}" style="color:#ff4949;">View in browser</a>
+                    </td>
+                    <td align="right">
+                      <a href="{{PREFERENCES_URL}}" style="color:#ff4949;">Preferences</a>
+                    </td>
+                    </tr>
+                  </table>
+                  </td>
+                </tr>
+          -->
+
+            <!-- Masthead -->
+            <tr>
+              <td class="px-24" style="padding:0 24px 8px 24px; text-align:center;">
+<div class="masthead" style="font-family:'Roboto','Segoe UI','Helvetica Neue','Arial',sans-serif; font-size:40px; line-height:48px; font-weight:400;">
+  The Vexican Times
+</div>
+
+
+                <div style="height:6px; line-height:6px;">&nbsp;</div>
+                <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:13px; line-height:20px;">
+                  4253 Raid Zero • September 2025 • Issue 2
+                </div>
+                <div style="height:12px; line-height:12px;">&nbsp;</div>
+              </td>
+            </tr>
+
+            <!-- Hero -->
+            <tr>
+              <td class="px-24" style="padding:0 24px 16px 24px;">
+                <img src="https://remiel.tw/Archive/MiscImages/IMG_8162.jpg"
+                     alt="light art" width="552" style="width:100%; max-width:552px; height:auto; border-radius:14px;">
+              </td>
+            </tr>
+
+          <!--
+                 
+                <tr>
+                  <td class="px-24" style="padding:0 24px 8px 24px;">
+                  <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+                    <tr>
+                    <td class="w-50" style="width:50%; padding-right:8px;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #e5e7eb; border-radius:12px;">
+                      <tr><td style="padding:12px 14px;">
+                        
+                        <div style="text-align:center; margin-bottom:8px;">
+                        <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                        <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                        <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                        <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                        </div>
+                        <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:12px; color:#6b7280;">Build Progress</div>
+                        <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:22px; line-height:28px; font-weight:700;">{{BUILD_PROGRESS|65%}}</div>
+                      </td></tr>
+                      </table>
+                    </td>
+                    <td class="w-50" style="width:50%; padding-left:8px;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #e5e7eb; border-radius:12px;">
+                      <tr><td style="padding:12px 14px;">
+                       
+                        <div style="text-align:center; margin-bottom:8px;">
+                        <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                        <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                        <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                        <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                        </div>
+                        <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:12px; color:#6b7280;">Commits this week</div>
+                        <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:22px; line-height:28px; font-weight:700;">{{COMMITS|18}}</div>
+                      </td></tr>
+                      </table>
+                    </td>
+                    </tr>
+                  </table>
+                  </td>
+                </tr>
+          -->
+
+            <!-- Agenda + Tasks -->
+            <tr>
+              <td class="px-24" style="padding:8px 24px 8px 24px;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <!-- Agenda -->
+                    <td class="w-50" style="width:50%; padding-right:10px;" valign="top">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #e5e7eb; border-radius:12px;">
+                        <tr><td style="padding:14px;">
+                          <!-- bubble bar -->
+                          <div style="text-align:center; margin-bottom:8px;">
+                            <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                            <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                            <span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                            <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                          </div>
+                          <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:24px; line-height:30px; margin-bottom:6px;">
+                            Weekly Session Times
+                          </div>
+                          <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:13px; line-height:20px;">
+                            <strong>Monday:</strong> 3:45-5:30<br>
+                            <strong>Tuesday:</strong> 3:45-5:00<br>
+                            <strong>Wednesday:</strong> 3:45-5:30<br>
+                            <strong>Thursday:</strong> 3:45-5:30<br>
+                            <em>Location:</em> Tech Cube 🔥🔥🔥
+                          </div>
+                          <div style="height:12px; line-height:12px;">&nbsp;</div>
+                          <table role="presentation" cellspacing="0" cellpadding="0">
+                            <tr><td>
+
+                              </a>
+                            </td></tr>
+                          </table>
+                        </td></tr>
+                      </table>
+                    </td>
+
+                    <!-- Tasks -->
+                    <td class="w-50" style="width:50%; padding-left:10px;" valign="top">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #e5e7eb; border-radius:12px;">
+                        <tr><td style="padding:14px;">
+                          <!-- bubble bar -->
+                          <div style="text-align:center; margin-bottom:8px;">
+                            <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                            <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                            <span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                            <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                          </div>
+                          <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:24px; line-height:30px; margin-bottom:6px;">
+                            Tasks
+                          </div>
+                          <ul style="margin:0; padding-left:18px; font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:13px; line-height:20px;">
+                            <li>1 person per team will be poached during sessions to help finish the field</li>
+                            <li><strong>Notebooks submitted by Friday 9/12</strong> </li>
+                            
+                          </ul>
+                          <div style="height:10px; line-height:10px;">&nbsp;</div>
+                          
+                        </td></tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Build update -->
+            <tr>
+              <td class="px-24" style="padding:8px 24px 8px 24px;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #e5e7eb; border-radius:12px;">
+                  <tr><td style="padding:16px;">
+                    <!-- bubble bar -->
+                    <div style="text-align:center; margin-bottom:8px;">
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                    </div>
+                    <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; font-weight:700; margin-bottom:6px;">
+                      Announcements
+                    </div>
+                    <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:14px; line-height:22px;">
+                      • We are starting a new part checkout system for keeping better track of high-value parts.
+                      <br />
+                      • If your team currently has any brains, motors, controllers, or pneumatics, please mark them with a team sticker.
+                      <br>
+                      • Team vinyl stickers will be given out at sessions and they are yours to use as you please.
+                     <br>
+                      • If your team needs any additional brains, motors, controllers, pneumatics, or any other high value parts, please update the <a href="https://docs.google.com/spreadsheets/d/1dtP_JEt6xmuwwFatdhagsIiBrEKvUEt92VN1ZLX85Gw/edit?gid=1535940099#gid=1535940099" target="_blank" style="font-weight:600; color:#ff4949;">Parts Checkout Form</a> and let the supervising VEX mentor know.
+                    </div>
+                  </td></tr>
+                </table>
+              </td>
+            </tr>
+
+
+                        <!-- Code update -->
+            <tr>
+              <td class="px-24" style="padding:8px 24px 8px 24px;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #e5e7eb; border-radius:12px;">
+                  <tr><td style="padding:16px;">
+                    <!-- bubble bar -->
+                    <div style="text-align:center; margin-bottom:8px;">
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                    </div>
+                    <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; font-weight:700; margin-bottom:6px;">
+                      NOTEBOOK AND CLEANLINESS CHECKS START THIS WEEK
+                    </div>
+                    <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:14px; line-height:22px;">
+                        • Starting this week your table will be scored for cleanliness. 
+                      <br />
+                      • Cleanliness is scored out of 2. Clean means nothing on the surface of the table, all your tools are in your toolboxes, and no parts are on the floor. Tables are scored on a daily basis.
+                      <br>
+                      <br>
+                      • Starting this week, notebooks will be evaluated every two weeks and are scored out of 10 points. Notebooks are evaluated upon the  
+                      <a href="https://kb.roboticseducation.org/hc/en-us/article_attachments/34300759847319" target="_blank" style="font-weight:600; color:#ff4949;">VEX Notebook judging rubric.</a>
+                      <br />
+                        • To submit your notebooks, please email a PDF copy of your notebook to <span style="color:#ff4949;">27gracief@students.tas.tw</span> and <span style="color:#ff4949;">26AlexC@students.tas.tw</span> by Friday 9/12.
+                      <br />
+                      • Note that for this first week ending 9/12, you will recieve full points if you submit your notebook on time. The only requirement is that it has to look like a good starting place for a notebook.
+                      <br>
+                        •  
+                        <a href="https://drive.google.com/drive/u/1/folders/1qZjWnaY2bA-sRayXGQpE6yduI0L_G2f6" target="_blank" style="font-weight:600; color:#ff4949;">See exemplar notebooks</a>
+                        <br>
+                        <br>
+                      • Track Notebook and Cleanliness scores
+                      <a href="https://docs.google.com/spreadsheets/d/1-nlcj7DgkQtSaK-Amdl39ULkOs-gqI7s0zSAoM6CEWc/edit?usp=sharing" target="_blank" style="font-weight:600; color:#ff4949;">at the Qualification Spreadsheet</a>
+                     <br />
+
+                    </div>
+
+                  </td></tr>
+                </table>
+              </td>
+            </tr>
+
+            
+            <!-- Code update -->
+            <tr>
+              <td class="px-24" style="padding:8px 24px 8px 24px;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #e5e7eb; border-radius:12px;">
+                  <tr><td style="padding:16px;">
+                    <!-- bubble bar -->
+                    <div style="text-align:center; margin-bottom:8px;">
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                    </div>
+                    <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; font-weight:700; margin-bottom:6px;">
+                      Relevant Links
+                    </div>
+                    <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:14px; line-height:22px;">
+                        • Discord Server:
+                      <a href="https://discord.gg/tjcDsbdcaA" target="_blank" style="font-weight:600; color:#ff4949;">Join Server</a>
+                      <br />
+                      • 
+                      <a href="https://docs.google.com/spreadsheets/d/1-7FQL0YKvLLUybwSsDMRZfbXK0k9ArfAGkGdFK6tUnw/edit?gid=0#gid=0" target="_blank" style="font-weight:600; color:#ff4949;">Part Ordering Sheet and Status</a>
+                      <br>
+                      • 
+                      <a href="https://docs.google.com/spreadsheets/d/1cXhZlYDYo8AnaqhDvJf14ONeK-wRQGJt2rh9YpDrCyM/edit?usp=sharing" target="_blank" style="font-weight:600; color:#ff4949;">Part Order Requests</a>
+                     <br>
+                    • 
+                    <a href="https://docs.google.com/spreadsheets/d/1-nlcj7DgkQtSaK-Amdl39ULkOs-gqI7s0zSAoM6CEWc/edit?usp=sharing" target="_blank" style="font-weight:600; color:#ff4949;">Qualification Spreadsheet</a>
+                    <br>
+                    
+                    • <a href="https://docs.google.com/spreadsheets/d/1dtP_JEt6xmuwwFatdhagsIiBrEKvUEt92VN1ZLX85Gw/edit?gid=1535940099#gid=1535940099" target="_blank" style="font-weight:600; color:#ff4949;">Parts Checkout</a>
+
+                    </div>
+
+                  </td></tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Code update -->
+            <tr>
+              <td class="px-24" style="padding:8px 24px 8px 24px;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #e5e7eb; border-radius:12px;">
+                  <tr><td style="padding:16px;">
+                    <!-- bubble bar -->
+                    <div style="text-align:center; margin-bottom:8px;">
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                    </div>
+                    <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; font-weight:700; margin-bottom:6px;">
+                      Competitions
+                    </div>
+                    <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:14px; line-height:22px;">
+                        • <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-V5RC-25-0525.html#general-info" target="_blank" style="color:#ff4949; font-weight:600;">VEX Formosa</a>: 12/4 - 12/5 <br>
+                        • <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-V5RC-25-0121.html#general-info" target="_blank" style="color:#ff4949; font-weight:600;">PAS VEX Signature Event</a>: 12/18-12/20<br>
+                        • <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-V5RC-25-0442.html#general-info" target="_blank" style="color:#ff4949; font-weight:600;">ASIJ Robotics Challenge</a>: 1/9-1/10 <br>
+                        • <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-V5RC-25-0059.html#general-info" target="_blank" style="color:#ff4949; font-weight:600;">VEX Taiwan Open</a>: 2/3-2/5 <br>
+                        • <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-V5RC-25-0160.html#general-info" target="_blank" style="color:#ff4949; font-weight:600;">Vietnam New Year Mayhem</a>: 2/6-2/8<br>
+                        • VEX Worlds St. Louis: 4/21-4/24 <br>
+
+                    </div>
+
+                  </td></tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Events -->
+            <tr>
+              <td class="px-24" style="padding:8px 24px 8px 24px;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #e5e7eb; border-radius:12px;">
+                  <tr><td style="padding:16px;">
+                    <!-- bubble bar -->
+                    <div style="text-align:center; margin-bottom:8px;">
+                      <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                      <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                      <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ff4949;margin:0 3px;"></span>
+                      <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ffad22;margin:0 3px;"></span>
+                    </div>
+                    <div style="font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; font-weight:700; margin-bottom:6px;">
+                      Qualification Percentages
+                    </div>
+                    <ul style="margin:0; padding-left:18px; font-family:Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-size:14px; line-height:22px;">
+                      <li>15% Cleanliness</li>
+                      <li>20% Notebook</li>
+                      <li>35% Scrims</li>
+                      <li>30% Skills</li>
+                      <br>
+                       <p>
+                      ps. you can submit images for next issue's cover by replying to this email
+                    </p>
+                    </ul>
+
+                    </ul>
+                    <br>
+                   
+                    <div style="height:10px; line-height:10px;">&nbsp;</div>
+
+                    
+                  </td></tr>
+                </table>
+              </td>
+            </tr>
+
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
